@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://10.60.150.151:3306/jingdong_db?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    show-sql: true
+server:
+  port: 8889
